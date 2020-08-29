@@ -1,0 +1,26 @@
+
+body{
+    font-family: Open Sans, “Segoe UI”, Roboto, “Helvetica Neue”, Ubuntu, Arial, sans-serif;
+}
+.container{
+    font-family: Open Sans, “Segoe UI”, Roboto, “Helvetica Neue”, Ubuntu, Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1280px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+}
+.container p{
+    color: #333;
+    font-size: 48px;
+    margin: 0;
+    line-height: 60px;
+    font-weight: bold;
+}
+.container span{
+
+    color: #AFAFAF;
+    font-size: 20px;
+}

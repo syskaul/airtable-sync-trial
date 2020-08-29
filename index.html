@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Airtable Sync</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container" id="stats_component">
+
+        <div>
+            <p>{{stats[0].fields.Orders_Completed}}</p>
+            <span>Orders Confirmed</span>
+        </div>
+        <div>
+            <p>{{stats[0].fields.Orders_Confirmed}}</p>
+            <span>Orders Completed</span>
+        </div>
+        <div>
+            <p>{{stats[0].fields.Status}}</p>
+            <span>Status</span>
+        </div>
+        <div>
+            <p>{{stats[0].fields.Total_Orders_Weight}}</p>
+            <span>Total Orders Weight (kg)</span>
+        </div>
+        <div>
+            <p>{{stats[0].fields.Unique_Vegetables_Used}}</p>
+            <span>Unique Vegetables Used</span>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
